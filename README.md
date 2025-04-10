@@ -1,5 +1,8 @@
 # Small Data
 
+[![build](https://github.com/cmgoffena13/small-data/actions/workflows/build.yml/badge.svg)](https://github.com/cmgoffena13/small-data/actions/workflows/build.yml)
+![linesofcode](https://aschey.tech/tokei/github/cmgoffena13/small-data?category=code)
+
 ## Data Engineering Tech Stack
 1. Polars - Ingestion / Transformation
 2. Delta-rs - Storage
