@@ -18,6 +18,9 @@ wheels/
 # Ruff Cache
 .ruff*
 
+# Pytest Cache
+.pytest_cache
+
 # Dev data
 dev_data/source/*
 dev_data/target/*
