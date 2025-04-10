@@ -11,8 +11,9 @@
 
 ## Setup
 1. Install UV (Check your installation using `uv --version`)  
-    1. Would not recommend the pip version.
+    1. I would NOT recommend the pip version.
 2. Install the necessary dependencies using `uv sync`
+3. Install pre-commit: `uv run pre-commit install`
 
 ### Optional - Duckdb UI
 1. Install Duckdb CLI  
@@ -27,7 +28,6 @@ Windows: `winget install DuckDB.cli`
  `SELECT * FROM delta_scan('./dev_data/target/employees') LIMIT 100`
 
 ## Development
-
 
 ## Deployment
 
