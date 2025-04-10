@@ -14,8 +14,9 @@
 
 ## Setup
 1. Install UV (Check your installation using `uv --version`)  
-    1. I would NOT recommend the pip version.
-2. Install the necessary dependencies using `uv sync`
+Mac: `curl -LsSf https://astral.sh/uv/0.6.9/install.sh | sh`  
+Windows: `powershell -ExecutionPolicy ByPass -c "irm https://astral.sh/uv/0.6.9/install.ps1 | iex"`
+2. Install the necessary project dependencies using `uv sync`
 3. Install pre-commit: `uv run pre-commit install`
 
 ### Optional - Duckdb UI
